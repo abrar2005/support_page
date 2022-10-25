@@ -1,0 +1,92 @@
+table.GeneratedTable {
+    width: 100%;
+    color: #1c0101;
+    max-width: 70vw;
+    border-collapse: separate;
+}
+
+table.GeneratedTable td,
+table.GeneratedTable th {
+    padding: 10px;
+    text-transform: capitalize;
+
+    &:nth-child(1) {
+        width: 12rem;
+    }
+}
+
+.action_buttons {
+    display: flex;
+}
+
+
+td a {
+    font-weight: 700;
+
+    &:hover {
+        color: #ff3134;
+        text-decoration: underline;
+        transition: all ease-in-out .1s;
+    }
+}
+
+table.GeneratedTable th {
+    background-color: #ffeaeb;
+    font-weight: 700;
+}
+
+table th:nth-child(1) {
+    /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+    -webkit-border-radius: 11px 0px 0px 11px;
+
+    /* Firefox 1-3.6 */
+    -moz-border-radius: 11px 0px 0px 11px;
+
+    /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+    border-radius: 11px 0px 0px 11px;
+}
+
+table th:nth-last-child(1) {
+    /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+    -webkit-border-radius: 0px 11px 11px 0px;
+
+    /* Firefox 1-3.6 */
+    -moz-border-radius: 0px 11px 11px 0px;
+
+    /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+    border-radius: 0px 11px 11px 0px;
+}
+
+
+
+.email {
+    text-transform: lowercase !important;
+}
+
+
+.new {
+    color: #62fe2b;
+    font-weight: 900;
+    text-transform: lowercase !important;
+}
+.checked {
+    color: #f08f1c;
+    font-weight: 900;
+    text-transform: lowercase !important;
+}
+.old {
+    color: #ff3134;
+    font-weight: 900;
+    text-transform: lowercase !important;
+}
+.progress {
+    color: #cd81e8;
+    font-weight: 900;
+    text-transform: lowercase !important;
+}
+.closed {
+    color: #0019fd;
+    font-weight: 900;
+    text-transform: lowercase !important;
+}
+

@@ -1,0 +1,19 @@
+.profile {
+    width: fit-content;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+
+    &__content {
+        h1 {
+            margin: 0;
+            font-size: 2rem;
+            margin-bottom: .5rem;
+        }
+        &__id {
+            font-weight: bold; 
+            color: grey;
+        }
+    }
+
+}

@@ -1,0 +1,19 @@
+button {
+    color: white;
+    font-weight: 600;
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+    margin-right: 1rem;
+    cursor: pointer !important;
+    text-transform: lowercase;
+
+    &.red {
+        background-color: #ff3134;
+    }
+    &.orange {
+        background-color: #f08f1c;
+    }
+    &.blue {
+        background-color: #3d9ffa;
+    }
+}

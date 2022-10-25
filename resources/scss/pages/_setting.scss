@@ -1,0 +1,58 @@
+
+span {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+input,
+select,
+textarea {
+    padding:.4rem 1rem;
+    border-radius: 5px;
+    border: 2px solid #503535;
+    color: #503535;
+}
+
+.setting {
+
+    &__item {
+        border-bottom: 1px solid #503535;
+        // padding-block: 2rem;
+        max-width: 40rem;
+
+        &__description {
+            margin-bottom: 1.5rem;
+
+            p {
+                margin-block: 0.5rem;
+                opacity: .8;
+            }
+            span {
+                font-weight: bold;
+            }
+        }
+
+        &__inputs {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            
+            input {
+                font-size: .9rem;
+            }
+
+            &__icon {
+                margin-right: 1rem;
+                width: 1.2rem;
+            }
+        }
+
+        // &:nth-child(1) {
+        //     padding-top: 0;
+        // }
+        &:nth-last-child(1) {
+            border-bottom: 0;
+        }
+    }
+}

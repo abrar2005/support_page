@@ -1,0 +1,44 @@
+aside {
+    background-color: rgba(255, 49, 52, 0.1);
+    width: 20vw;
+    height: calc(100vh - 1rem);
+    max-width: 17rem;
+    min-width: 16rem;
+    padding: 1rem;
+    border-radius: 20px;
+    position: sticky;
+    margin: 0.5rem;
+
+    top: 0.5rem;
+
+    .aside_menu_item {
+        color: #503535;
+        display: flex;
+        align-items: center;
+        padding:.4rem 1rem;
+        margin-block: .8rem;
+        margin-top: 0;
+        border-radius: 10px;
+        
+        img {
+            width: 22px;
+            aspect-ratio: 1/1;
+            margin-right: 1rem;
+        }
+        span {
+            text-transform: capitalize;
+            font-weight: 600;
+            font-size: .9rem;
+        }
+
+    }
+    .aside_menu_item.active {
+        background-color: #503535;
+        color: white;
+        padding: .8rem 1rem;
+
+        img {
+            filter: invert(96%) sepia(100%) saturate(0%) hue-rotate(60deg) brightness(105%) contrast(105%);
+        }
+    }
+}

@@ -1,0 +1,15 @@
+@forward "comp";
+@forward "layout";
+@forward "pages";
+
+body {
+    font-family: "Nunito", sans-serif;
+    display: flex;
+    gap: 2rem;
+}
+
+.container {
+    // margin-inline: 5vw;
+}
+
+

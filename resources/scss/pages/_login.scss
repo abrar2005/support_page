@@ -1,0 +1,33 @@
+#login .container #login-row #login-column #login-box {
+    margin-top: 30px;
+    display: block;
+    margin: 0 auto;
+    // max-width: 500px;
+}
+#login .container #login-row #login-column #login-box #login-form {
+    padding: 20px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 3px;
+}
+
+.form-check {
+    margin-top: 2rem;
+}
+
+.text-danger {
+    color: red;
+    font-size: 0.8rem;
+}
+.login_logo {
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+input[type="checkbox"] {
+    width: 1rem;
+    aspect-ratio: 1/1;
+}
